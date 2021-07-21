@@ -49,7 +49,7 @@ async def sleepybot(time):
 @register(outgoing=True, pattern=r"^\.shutdown$")
 async def killthebot(event):
     """For .shutdown command, shut the bot down."""
-    await event.edit("`Shutting down...`")
+    await event.edit("`Kill the Clone...`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n" "Bot shut down")
     await bot.disconnect()
@@ -57,10 +57,10 @@ async def killthebot(event):
 
 @register(outgoing=True, pattern=r"^\.restart$")
 async def killdabot(event):
-    await event.edit("`*i would be back in a moment*`")
+    await event.edit("`*Your clone will back after sunset*`")
     if BOTLOG:
         await event.client.send_message(
-            BOTLOG_CHATID, "#RESTART \n" "Restarting bot..."
+            BOTLOG_CHATID, "#RESTART \n" "Restarting clone..."
         )
 
     try:
@@ -80,7 +80,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
-        "\n[Cyber README.md file](https://github.com/ythm00/Cyber/blob/master/README.md)"
+        "\n[HC README.md file](https://github.com/ipindanger/Cyber/blob/master/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-Google-Drive-04-03)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -108,14 +108,14 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        "**Hey**, __I am using__ 🔥 **Cyber** 🔥\n"
+        "**Hey**, __I am using__ 🔥 **HasilClone** 🔥\n"
     "                      \n"
-    "__Durable as a Cyber__\n"
+    "__Durable as a HC__\n"
     "                      \n"
-"• **Cyber version** : `Master`\n"
-"• **license** : [GNU GPL v3.0](https://github.com/ythm00/Cyber/blob/master/LICENSE)\n"
-"• **copyright** : [ythm00](https://github.com/ythm00)\n"
-"• **repo** : [Cyber](https://github.com/ythm00/Cyber)")
+"• **HC version** : `Master`\n"
+"• **license** : [GNU GPL v3.0](https://github.com/ipindanger/Cyber/blob/master/LICENSE)\n"
+"• **copyright** : [Cyber](https://github.com/ythm00)\n"
+"• **repo** : [HC](https://github.com/ipindanger/Cyber)")
 
 
 
