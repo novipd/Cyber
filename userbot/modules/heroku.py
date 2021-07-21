@@ -121,7 +121,7 @@ async def set_var(var):
 
 @register(outgoing=True, pattern=r"^\.usage(?: |$)")
 async def dyno_usage(dyno):
-    """Get your account Dyno Usage."""
+    """Get your Clone Dyno Usage."""
     if app is None:
         return await dyno.edit(
             "`[HEROKU]\nPlease setup your`  "
