@@ -207,9 +207,9 @@ async def set_afk(afk_e):
     afk_start = start1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit("**Into The Void!**" f"\nReason: `{string}`")
+        await afk_e.edit("**Lost in Galaxy!**" f"\nReason: `{string}`")
     else:
-        await afk_e.edit("**Into The Void!**")
+        await afk_e.edit("**Lost in Galaxy!**")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nYou went AFK!")
     ISAFK = True
@@ -231,7 +231,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = not_afk.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.edit("**I'm back BISH!**")
+        msg = await notafk.edit("**I'm back from the dark sky!**")
         await asyncio.sleep(3)
         await msg.delete()
         if BOTLOG:
