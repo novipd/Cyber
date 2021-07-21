@@ -132,7 +132,7 @@ OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
 # Default .alive name anf logo
 ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/7c2398e55b23097f36e41.mp4"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/e6c3368a4b15cb8df6588.mp4"
 )
 
 # Inline Picture
@@ -465,7 +465,7 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Welcome To **Cyber**",
+                    f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Welcome To **HasilClone**",
                     buttons=[
                         [
                             Button.url("JOIN",
@@ -477,9 +477,9 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    f"**Cyber** Deploy to Heroku, Click Here ",
+                    f"**HC** Deploy to Heroku, Click Here ",
                     buttons=[
-                        [Button.url("Deploy", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fythm00%2FCyber&template=https%3A%2F%2Fgithub.com%2Fythm00%2FCyber%2Ftree%2Fmaster")],
+                        [Button.url("Deploy", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fipindanger%2FCyber&template=https%3A%2F%2Fgithub.com%2Fipindanger%2FCyber%2Ftree%2Fmaster")],
                     ]
                 )
 
@@ -498,7 +498,7 @@ with bot:
                                           [
                                               custom.Button.url(
                                                   text="Repo",
-                                                  url="https://github.com/ythm00/Cyber")],
+                                                  url="https://github.com/ipindanger/Cyber")],
                                       ]
                                       )
                                       
@@ -561,7 +561,7 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Cyber Helper",
+                    "HC Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=False)
