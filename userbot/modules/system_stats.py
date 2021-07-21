@@ -171,7 +171,7 @@ async def amireallyalive(alive):
         f"**__Python__**: `{python_version()}`\n"
         f"**__Telethon__**: `{version.__version__}`\n"
         f"                           \n"
-        f"🎖**[GNU GPL v3.0](https://github.com/ythm00/Cyber/blob/master/LICENSE)** | 👤 **[Cyber](https://github.com/ythm00)** |  🧪 **[Repo](https://github.com/ythm00/Cyber)**"
+        f"🎖**[GNU GPL v3.0](https://github.com/ipindanger/Cyber/blob/master/LICENSE)** | 👤 **[God](https://github.com/ythm00)** |  🧪 **[Repo](https://github.com/ipindanger/Cyber)**"
         
 )        
     if ALIVE_LOGO:
