@@ -106,7 +106,7 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/ythm00/Cyber.git"
+    "UPSTREAM_REPO_URL", "https://github.com/ipindanger/Cyber.git"
 )
 # UPSTREAM_REPO_URL branch, the default is master
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
@@ -340,7 +340,7 @@ with bot:
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**Cyber is back up and running!**\n\n"
+        f"**HasilClone is back up and running!**\n\n"
         f"**Telethon :** __{version.__version__}__\n"
         f"**Python :** __{python_version()}__\n"
         f"**User :** __{DEFAULTUSER}__"
@@ -468,8 +468,8 @@ with bot:
                     f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Welcome To **Cyber**",
                     buttons=[
                         [
-                            Button.url("Support Group",
-                                       "https://t.me/RythmSupportGroup")],
+                            Button.url("JOIN",
+                                       "https://t.me/othersideofnopi")],
                     ]
                 )
 
@@ -489,7 +489,7 @@ with bot:
                 u = await event.client.get_entity(event.chat_id)
                 await event.message.get_sender()
                 text = (
-                    f"Haii [{get_display_name(u)}](tg://user?id={u.id}) My Name is **Cyber**\n"
+                    f"Haii [{get_display_name(u)}](tg://user?id={u.id}) **HasilClone** here\n"
                     f"and For Maintaining Your Group.\n"
                     f"I was **Created by :** @SyndicateTwenty4 For Various Userbots on Github.\n")
                 await tgbot.send_file(event.chat_id, file=cyberlogo,
@@ -518,9 +518,9 @@ with bot:
                                   buttons=[
                                       [
                                           Button.url("🧪 Repo",
-                                                     "https://github.com/ythm00/Cyber"),
+                                                     "https://github.com/ipindanger/Cyber"),
                                           Button.url("🎖️ GNU GPL v3.0",
-                                                     "https://github.com/ythm00/Cyber/blob/master/LICENSE")],
+                                                     "https://github.com/ipindanger/Cyber/blob/master/LICENSE")],
                                           ]
                                  )
 
@@ -555,7 +555,7 @@ with bot:
                 ]
                 photo_bytesio = cyberlogo
                 result = builder.photo(photo_bytesio,
-                    text="© Cyber",
+                    text="© HC",
                     link_preview=False,
                     buttons=buttons,
                 )
@@ -567,16 +567,16 @@ with bot:
                     link_preview=False)
             else:
                 result = builder.article(
-                    "Cyber",
+                    "HasilClone",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/ythm00/Cyber"),
+                                "https://github.com/ipindanger/Cyber"),
                             custom.Button.url(
-                                "Support",
-                                "https://t.me/RythmSupportGroup")],
+                                "Join",
+                                "https://t.me/othersideofnopi")],
                     ],
                     link_preview=True,
                 )
@@ -591,14 +591,14 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"Cyber modules helper.\n\nTotal loaded modules: {len(plugins)}"
+                text = f"HasilClone modules helper.\n\nTotal loaded modules: {len(plugins)}"
                 await event.edit(text,
                     file=cyberlogo,
                     buttons=buttons,
                     link_preview=False,
                 )
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Please make for yourself, don't use my clone!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -610,14 +610,14 @@ with bot:
             if event.query.user_id == uid:
                 current_page_number = int(unpage)
                 buttons = paginate_help(current_page_number, plugins, "helpme")
-                text = f"Cyber modules helper.\n\nTotal loaded modules: {len(plugins)}"
+                text = f"HasilClone modules helper.\n\nTotal loaded modules: {len(plugins)}"
                 await event.edit(text,
                     file=cyberlogo,
                     buttons=buttons,
                     link_preview=False,
                 )
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Please make for yourself, don't use my clone!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -634,7 +634,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Please make for yourself, don't use my clone!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -652,7 +652,7 @@ with bot:
                     ]
                 )
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Please make for yourself, don't use my clone!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -670,7 +670,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Please make for yourself, don't use my clone!"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -701,14 +701,14 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = "Please make for yourself, don't use my bot!"
+                reply_pop_up_alert = "Please make for yourself, don't use my clone!"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     except BaseException:
         LOGS.info(
             "Support for inline is disabled on your bot. "
-            "To enable it, define a bot token and enable inline mode on your bot. "
+            "To enable it, define a bot token and enable inline mode on your clone. "
             "If you think there is a problem other than this, contact us.")
     try:
         bot.loop.run_until_complete(check_botlog_chatid())
