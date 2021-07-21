@@ -169,7 +169,7 @@ def register(**args):
 
                     if LOGSPAMMER:
                         await check.respond(
-                            "`Sorry, my userbot has crashed."
+                            "`Sorry, my clone has crashed."
                             "\nThe error logs are stored in the userbot's log chat.`"
                         )
 
@@ -181,8 +181,8 @@ def register(**args):
                             )
                         text += f"\n\nPasted to : [Katb.in]({url})"
 
-                        await check.client.send_file(send_to, "error.txt", caption=text)
-                        remove("error.txt")
+                        await check.client.send_file(send_to, "burn.txt", caption=text)
+                        remove("burn.txt")
             else:
                 pass
 
