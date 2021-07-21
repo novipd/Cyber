@@ -1,13 +1,13 @@
-# Cyber Userbot
+# HasilClone Userbot
 
-![Cyber](https://telegra.ph/file/b05a86dc5adafcd3de0cc.gif)
+![Cyber](https://telegra.ph/file/f3c57b9b14f71877564b7.mp4)
 
 <p align="center">
     <a href="https://app.codacy.com/gh/BianSepang/WeebProject/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/ythm00/Cyber/stargazers"> <img src="https://img.shields.io/github/stars/ythm00/Cyber?logo=github&style=flat-square" alt="Stars" /></a>
-    <a href="https://github.com/ythm00/Cyber/network/members"> <img src="https://img.shields.io/github/forks/ythm00/Cyber?logo=github&style=flat-square" alt="Forks" /></a>
-    <a href="https://github.com/ythm00/Cyber/watchers"> <img src="https://img.shields.io/github/watchers/ythm00/Cyber?logo=github&style=flat-square" alt="Watch" /></a><br>
-    <a href="https://github.com/ythm00/Cyber/graphs/contributors"> <img src="https://img.shields.io/github/contributors/ythm00/Cyber?color=blue&style=flat-square" alt="Contributors" /></a>
+    <a href="https://github.com/ipindanger/Cyber/stargazers"> <img src="https://img.shields.io/github/stars/ipindanger/Cyber?logo=github&style=flat-square" alt="Stars" /></a>
+    <a href="https://github.com/ipindanger/Cyber/network/members"> <img src="https://img.shields.io/github/forks/ipindanger/Cyber?logo=github&style=flat-square" alt="Forks" /></a>
+    <a href="https://github.com/ipindanger/Cyber/watchers"> <img src="https://img.shields.io/github/watchers/ipindanger/Cyber?logo=github&style=flat-square" alt="Watch" /></a><br>
+    <a href="https://github.com/ipindanger/Cyber/graphs/contributors"> <img src="https://img.shields.io/github/contributors/ipindanger/Cyber?color=blue&style=flat-square" alt="Contributors" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=flat-square" /></a>
 </p>
 
@@ -29,12 +29,14 @@
 
 A modular Telegram Userbot running on Python3 with sqlalchemy database.
 
-based on [ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot
+based on
+[ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot
+[Cyber](https://github.com/ythm00/Cyber) Userbot
 
 ## Deploy
 ### Heroku
 Click this button below to Deploy to Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ythm00/Cyber/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ipindanger/Cyber/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
 
 ### "Bare hands", using Git and Python3 -- on (Linux, macOS, and Android [via Termux])
 1. Clone this repository on your local machine and `cd` (or `chdir`, anti bloat guy) to it
@@ -67,7 +69,7 @@ Click this button below to Deploy to Heroku
 * [Alfianandaa](https://github.com/alfianandaa) - ProjectAlf
 * [GengKapak](https://github.com/GengKapak) - DCLXVI
 
-and [everyone](https://github.com/ythm00/Cyber/graphs/contributors) that makes this userbot awesome :D
+and [everyone](https://github.com/ipindanger/Cyber/graphs/contributors) that makes this userbot awesome :D
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/ythm00/Cyber/blob/master/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/ipindanger/Cyber/blob/master/LICENSE) - Version 1.d, February 2020
