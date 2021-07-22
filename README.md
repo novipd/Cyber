@@ -1,6 +1,6 @@
 # HasilClone Userbot
 
-![HC](https://telegra.ph/file/689d68756f0bbba0b8b5f.jpg)
+![HC](https://telegra.ph/file/f4d67113832dd4519143a.jpg)
 
 <p align="center">
     <a href="https://app.codacy.com/gh/BianSepang/WeebProject/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
