@@ -147,13 +147,13 @@ else:
 
 
 INLINE_LOGO = os.environ.get(
-    "INLINE_LOGO") or "https://telegra.ph/file/689d68756f0bbba0b8b5f.jpg"
+    "INLINE_LOGO") or "https://telegra.ph/file/f4d67113832dd4519143a.jpg"
 
 IN_PIC = str(INLINE_LOGO)
 if IN_PIC:
     cyberlogo = IN_PIC
 else:
-    cyberlogo = "https://telegra.ph/file/689d68756f0bbba0b8b5f.jpg"
+    cyberlogo = "https://telegra.ph/file/f4d67113832dd4519143a.jpg"
 
 # remove.bg API key
 REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
